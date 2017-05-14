@@ -1,0 +1,94 @@
+// out: ../css/master.css, sourcemap: true, compress: true, libs: nib
+@import "style.css"
+@import url('https://fonts.googleapis.com/css?family=Lato')
+
+azul-dark=#336699
+azul-light=#5FA9DD
+accent=#CC2F6F
+gris-dark=#343434
+gris-light=#828282
+color-facebook=#3D5A98
+color-twitter=#5FA9DD
+
+*
+  margin:0
+  padding:0
+  box-sizing: border-box
+body
+  font-family: 'Lato', sans-serif
+a
+  text-decoration:none
+body
+  font-size:16px
+.nav
+  background-color:gris-light
+  width:100%
+  height:3.8 rem
+  display:inline-block
+  margin:0
+  a
+    margin-top:1.2em
+    float:left
+    margin-left:1em
+  input
+    padding:.5em
+    margin-left:1em
+    margin-top:.9em
+    float:left
+    width:60%
+    height:2.3em
+.header
+  margin-top:-.25em
+  background-image:url('../img/bg.png');
+  background-color:black
+  height:25em
+  text-align:center
+  padding:3em 1em
+  img,h2
+    margin-bottom:1em
+  a
+    display:inline-block
+    height:3em
+    width:100%
+    padding:1em
+    span
+      float:left
+      margin-left:1em
+    p
+      margin-left:1em
+      float:right
+.main
+  .start
+    width:100%
+    text-align:center
+    margin-top:1em
+    a
+      width:50%
+      font-size:1.5em
+      padding:0 .5em
+      &:first-child
+        border-right:2px solid gris-light
+.main
+  text-align:center
+  img
+    width:100%
+.footer
+  margin-top:2rem
+  background-color:gris-dark
+  padding:1em
+  color:white
+  a
+    color:white
+    float:right
+    margin-left:0.5em
+    text-decoration:underline
+.facebook
+  background-color:color-facebook
+.twitter
+  background-color:color-twitter
+.white
+  color:white
+.gris-claro
+  color:gris-light
+.border-radius
+  border-radius:10px

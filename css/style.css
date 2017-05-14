@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?lved4b');
+  src:  url('fonts/icomoon.eot?lved4b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lved4b') format('truetype'),
+    url('fonts/icomoon.woff?lved4b') format('woff'),
+    url('fonts/icomoon.svg?lved4b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copi:before {
+  content: "\e900";
+}
+.icon-ants:before {
+  content: "\e902";
+}
+.icon-sfotipy-color .path1:before {
+  content: "\e901";
+  color: rgb(204, 47, 111);
+}
+.icon-sfotipy-color .path2:before {
+  content: "\e903";
+  margin-left: -3.212890625em;
+  color: rgb(204, 47, 111);
+}
+.icon-sfotipy-color .path3:before {
+  content: "\e904";
+  margin-left: -3.212890625em;
+  color: rgb(204, 47, 111);
+}
+.icon-sfotipy-color .path4:before {
+  content: "\e905";
+  margin-left: -3.212890625em;
+  color: rgb(204, 47, 111);
+}
+.icon-sfotipy-color .path5:before {
+  content: "\e906";
+  margin-left: -3.212890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-sfotipy-color .path6:before {
+  content: "\e907";
+  margin-left: -3.212890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-sfotipy-color .path7:before {
+  content: "\e908";
+  margin-left: -3.212890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-sfotipy-color .path8:before {
+  content: "\e909";
+  margin-left: -3.212890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-sfotipy-color .path9:before {
+  content: "\e90a";
+  margin-left: -3.212890625em;
+  color: rgb(204, 47, 111);
+}
+.icon-sfotipy-color .path10:before {
+  content: "\e90b";
+  margin-left: -3.212890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-search:before {
+  content: "\e600";
+}
+.icon-block:before {
+  content: "\e601";
+}
+.icon-user:before {
+  content: "\e602";
+}
+.icon-share:before {
+  content: "\e603";
+}
+.icon-random:before {
+  content: "\e604";
+}
+.icon-love:before {
+  content: "\e605";
+}
+.icon-add:before {
+  content: "\e606";
+}
+.icon-vol-down:before {
+  content: "\e607";
+}
+.icon-vol-up:before {
+  content: "\e608";
+}
+.icon-play:before {
+  content: "\e609";
+}
+.icon-next:before {
+  content: "\e60a";
+}
+.icon-prev:before {
+  content: "\e60b";
+}
+.icon-stop:before {
+  content: "\e60c";
+}
+.icon-sfotipy:before {
+  content: "\e60d";
+}
+.icon-menu:before {
+  content: "\e60e";
+}
+.icon-send:before {
+  content: "\e60f";
+}
+.icon-facebook:before {
+  content: "\e610";
+}
+.icon-twiter:before {
+  content: "\e611";
+}
