@@ -9,7 +9,7 @@ gris-dark=#343434
 gris-light=#828282
 color-facebook=#3D5A98
 color-twitter=#5FA9DD
-
+nav-Height=3.8rem
 *
   margin:0
   padding:0
@@ -23,7 +23,7 @@ body
 .nav
   background-color:gris-light
   width:100%
-  height:3.8 rem
+  height:nav-Height
   display:inline-block
   margin:0
   a
@@ -37,8 +37,40 @@ body
     float:left
     width:60%
     height:2.3em
+  .navigation
+    width:80%
+    background-color:gris-dark
+    opacity:.9
+    max-height:inherit
+    height: 35em
+    margin-top:nav-Height
+    position:relative
+    transition:  margin-left 0.4s ease-in-out
+    .search
+      width:100%
+      input
+        width:80%
+      button
+        color:white
+        background-color:gris-dark
+        border:none
+        margin-left:1.5em
+        margin-top:1.2em
+    ul
+      width:100%
+      padding:0 1em
+      li
+        width:100%
+        display:inline-block
+        border-bottom: 2px solid gris-light
+        a
+          padding-bottom 1em
+          display:inline
+          width:100%
+          text-decoration:none
+          color:white
 .header
-  margin-top:-.25em
+  margin-top:-27em
   background-image:url('../img/bg.png');
   background-color:black
   height:25em
@@ -54,16 +86,18 @@ body
     span
       float:left
       margin-left:1em
+      border-right:1px solid gris-light
     p
+      margin-bottom:1em
       margin-left:1em
-      float:right
+      float:left
 .main
   .start
     width:100%
     text-align:center
     margin-top:1em
     a
-      width:50%
+      width:50%;
       font-size:1.5em
       padding:0 .5em
       &:first-child
@@ -92,3 +126,5 @@ body
   color:gris-light
 .border-radius
   border-radius:10px
+.open-sidebar
+  margin-left:-80%

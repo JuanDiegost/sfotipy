@@ -14,17 +14,32 @@
     <form class="search" action="index.html" method="get">
       <input class="border-radius" type="text" name="search" value="">
     </form>
-    <a class="white" href="#"><span class="icon-menu"></span></a>
+    <a id="menu" class="white" href="#"><span class="icon-menu"></span></a>
     <a class="white" href="#"><span class="icon-copi"></span></a>
+    <div id="navigation" class="navigation open-sidebar">
+          <form action="" class="search">
+            <input class="border-radius" type="text" name="searchText" value="">
+            <button type="button" name="button"><span class="icon-search"></span></button>
+          </form>
+      <ul>
+        <li><a href="#">Top Hits</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">settings</a></li>
+        <li><a href="#">My likes</a></li>
+        <li><a href="#">PlayList</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
   </nav>
   <header class="header">
     <img src="img/logo.png" alt="">
     <h2 class="description white">Toda la musica que te gusta en
     todas partes</h2>
-    <a class="facebook white border-radius" href="#"><span class="icon-facebook"> <p>Connectate con facebook</p></span></a>
-    <a class="twitter white border-radius" href="#"><span class="icon-twiter"> <p>Connectate con twitter</p></span></a>
+    <a class="facebook white border-radius" href="#"><span class="icon-facebook"> </span><p>Connectate con facebook</p></a>
+    <a class="twitter white border-radius" href="#"><span class="icon-twiter"> </span><p>Connectate con twitter</p></a>
   </header>
   <section class="main">
+    <h2></h2>
     <div class="start">
       <a href="#" class="login gris-claro">Login</a>
       <a href="#" class="singup gris-claro">Create Account</a>
@@ -50,5 +65,8 @@
     <a href="#">about</a>
     <a href="#">Legal</a>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/vendor.js">
+  </script>
 </body>
 </html>
